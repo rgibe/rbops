@@ -1,0 +1,21 @@
+---
+app1-instance04:
+  http_port: '8001'
+  ajp_port: '10001'
+  control_port: '60001'
+  catalina_opts: "-Xms1024m -Xmx2048m -Dcom.sun.management.jmxremote.port=11001 -DcinecaEndorsed=false"
+app1-instance05:
+  http_port: '8006'
+  ajp_port: '10006'
+  control_port: '60006'
+  catalina_opts: "-Xms1024m -Xmx2048m -Dcom.sun.management.jmxremote.port=11006 -DcinecaEndorsed=false"
+app1-instance06:
+  http_port: '8017'
+  ajp_port: '10017'
+  control_port: '60017'
+  catalina_opts: "-Xms1024m -Xmx2048m -Dcom.sun.management.jmxremote.port=11017 -DcinecaEndorsed=false"
+app1-instance03:
+  http_port: '8003'
+  ajp_port: '10003'
+  control_port: '60003'
+  catalina_opts: "-Xms1024m -Xmx2048m -Dcom.sun.management.jmxremote.port=11003 -DcinecaEndorsed=false"

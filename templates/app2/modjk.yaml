@@ -1,0 +1,13 @@
+---
+# EXAMPLE
+'INSTANCE.SERVICE.domain.it':
+  file_name: 'INSTANCE.SERVICE.domain.it.inc'
+  lb_instances:
+    - 'SERVICE-INSTANCE'
+  port:  '10-OFFSET'
+  hosts:
+    - 'HOST1.private.domain.it'
+    - 'HOST2.private.domain.it'
+  balance_workers:
+    - '01'
+    - '02'

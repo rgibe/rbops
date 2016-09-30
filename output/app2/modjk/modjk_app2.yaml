@@ -1,0 +1,23 @@
+---
+'instance01.app2.domain.it':
+  file_name: 'instance01.app2.domain.it.inc'
+  lb_instances:
+    - 'app2-instance01'
+  port:  '10006'
+  hosts:
+    - 'host19.private.domain.it'
+    - 'host20.private.domain.it'
+  balance_workers:
+    - '01'
+    - '02'
+'instance02.app2.domain.it':
+  file_name: 'instance02.app2.domain.it.inc'
+  lb_instances:
+    - 'app2-instance02'
+  port:  '10011'
+  hosts:
+    - 'host21.private.domain.it'
+    - 'host22.private.domain.it'
+  balance_workers:
+    - '01'
+    - '02'

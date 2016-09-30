@@ -1,0 +1,14 @@
+---
+queries:
+  tomcat_hosts:
+    "SELECT UNIQUE(valore)
+    FROM Table1 d, Table2 a
+    WHERE a.COD1 = d.COD1
+    AND d.TYPE='node'
+    AND a.FLG_HOSTING='S'"
+  tomcat_instances:
+    "SELECT d.NODE, d.COD1, d.VAR1, d.OFFSET, a.INSTANCE, a.ENV
+    FROM Table1 d, Table2 a
+    WHERE a.COD1 = d.COD1
+    AND d.NODE='CHANGEME1'
+    AND a.FLG_HOSTING='S'"

@@ -1,0 +1,4 @@
+---
+# EXAMPLE
+'www.INSTANCE.domain.it':
+  docroot:          '/production/product/apache/htdocs/INSTANCE-prod'

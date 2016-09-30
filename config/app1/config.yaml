@@ -1,0 +1,10 @@
+---
+db_instance:
+  server1:
+    "//oradb1.domain.it:3333/SID1"
+  server2:
+    '//oradb2.domain.it:4444/SID2'
+  user:
+    'app1_reader'
+  password:
+    'xxxx'

@@ -1,0 +1,7 @@
+---
+'www.instance01.domain.it':
+  docroot:          '/production/product/apache/htdocs/instance01-prod'
+'www.instance02.domain.it':
+  docroot:          '/production/product/apache/htdocs/instance02-prod'
+'www.instance03.domain.it':
+  docroot:          '/production/product/apache/htdocs/instance03-prod'

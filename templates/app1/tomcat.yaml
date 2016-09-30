@@ -1,0 +1,6 @@
+---
+'INSTANCE':
+  http_port: '8-OFFSET'
+  ajp_port: '10-OFFSET'
+  control_port: '60-OFFSET'
+  catalina_opts: '-Xms1024m -Xmx2048m -Dcom.sun.management.jmxremote.port=11-OFFSET -DcinecaEndorsed=false'
