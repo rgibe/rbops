@@ -47,8 +47,9 @@ Lets explain how it works.
 
 Create and configure the hiera data files (yaml files) depending on the "element" (e.g. tomcat) and "service/application" (e.g. app1)
 
-```Usage: ./create.rb <service> <element>
-   E.g.:  ./create.rb app1 tomcat```
+```Usage: ./create.rb <service> <element>```
+
+```e.g.:  ./create.rb app1 tomcat```
 
 The utility reads the configuration parameters from an Oracle DB.
 
@@ -63,8 +64,9 @@ The script get the parameters from command line:
 * instance
 * extra parameter depending on the element (e.g. offset to configure a tomcat instance)
 
-```Usage: ./modify.rb <service> <element> <host> <instance> <offset>
-   E.g.:  ./modify.rb app1 tomcat host01 app1-instance01 069```
+```Usage: ./modify.rb <service> <element> <host> <instance> <offset>```
+
+```e.g.:  ./modify.rb app1 tomcat host01 app1-instance01 069```
 
 **Delete**
 
@@ -76,5 +78,6 @@ The script get the parmeters from command line:
 * host
 * instance
 
-```Usage: ./delete.rb <service> <element> <host> <instance>
-   E.g.:  ./delete.rb app1 tomcat host01 app1-instance01```
+```Usage: ./delete.rb <service> <element> <host> <instance>```
+
+```e.g.:  ./delete.rb app1 tomcat host01 app1-instance01```
